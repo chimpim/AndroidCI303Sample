@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chimpim.ci303sample.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接读卡器" />
+
+    <Button
+        android:id="@+id/btn_start_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始读卡" />
+
+    <Button
+        android:id="@+id/btn_stop_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止读卡" />
+
+
+    <TextView
+        android:id="@+id/tv_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        tools:text="@string/app_name" />
+
+</LinearLayout>
